@@ -1,48 +1,88 @@
 # Questions
 
-## What is programming
+<details>
+<summary>What is programming
+</summary>
+<pre>
+1. Write a short description what a programming is
+     - A program is a set of instruction that can executed by a computer
+2. List down some of the importance of python programming language
+     - To develop a desktop application, server-side programming, data analysis, ML, etc
+3. What version of python are you currently using? 3.9.2
+4. What code editor are you using? VScode 
+5. What is the python interactive shell?
+6. How do you open the python interactive shell and how do you close it?
+7. What is the extension of the python script file? 
+</pre>
+</details>
 
-- Write a short description what a programming is
-  - A program is a set of instruction that can executed by a computer
-- List down some of the importance of python programming language
-  - To develop a desktop application, server-side programming, data analysis, ML, etc
-- What version of python are you currently using? 3.9.2
-- What code editor are you using? VScode
-- What is the python interactive shell?
-- How do you open the python interactive shell and how do you close it?
-- What is the extension of the python script file? 
+<details>
+<summary>Functions</summary>
+<pre>
+  1. What is a function? 
+    - A block of code that allows you to perform a certain task
+  2. Functions can be divided into two: builtin functions and custom functions
+  3. Write at least 10 builtin functions and perform some task using the function
+<pre>
+</details>
 
-## Functions
 
-  - What is a function? A block of code that allows you to perform a certain task
-  - Functions can be divided into two: builtin functions and custom functions
-  - Write at least 10 builtin functions and perform some task using the function
-
-## Comments
-  
-- What is the use of a comment in programming
+<details>
+<summary>Comments</summary>
+<pre>
+1 What is the use of a comment in programming
   - To make the code readable, maintainable, reusable, to leave remark
-- Write a single line python comment # 
-- Write a multiline python comment
+2. Write a single line python comment
+3. Write a multiline python comment
+<pre>
+</details>
 
+<details>
+<summary>Data types</summary>
+<pre>
+1. List all the data types you know
+2. Give one example for each data types
+<pre>
+</details>
 
-## Data types
-
-- List all the data types you know and give one example for each data types
-  
-## Variables
-
+<details>
+<summary>Variables</summary>
+<pre>
 - Declare a variable of all data types
 - Check the type of your variables using type
-  
-## Operations
+<pre>
+</details>
 
+<details>
+<summary>Operations</summary>
+<pre>
 What is an assignment operator? 
 What are the Python Arithmetic operators?
 What are the Python comparison operators > < >= <= == !==,
 What are the Python logical operators ? and, or, not
+<pre>
+</details>
 
-### Getting user input
+<details>
+<summary>Type casting</summary>
+<pre>
+```sh
+num_int = 10
+num_str = '5'
+gravity = 9.81
+```
+1. Change the value at num_int to float
+2. Change the value at num_int to string
+3. Change the value at gravity to integer
+4. Change the value at gravity  to string
+5. Change the num_str to to int
+6. Change the num_str to float
+<pre>
+</details>
+
+<details>
+<summary>Getting user input</summary>
+<pre>
 
 Write a small script that can calculate the age of a person. The program asks the user to enter birth year and the current year.
 
@@ -58,8 +98,12 @@ Write a small script that can calculate the weight of an object on Earth. The pr
 Enter your weight: 100
 Your weight is 98.1 N.
 ```
+<pre>
+</details>
 
-### Strings
+<details>
+<summary>Strings</summary>
+<pre>
 
 - Concatenate the string 'Python', 'For','Everyone' to a single string, 'Python for Everyone'
 - Concatenate the string 'Coding', 'For', 'All' to a single string, 'Coding For All'
@@ -90,17 +134,22 @@ Your weight is 98.1 N.
 - Use startswith() method with the string Coding For All make the result true
 - Use endswith() method with the string Python for Everyone make the result true
 
-## Conditionals
+<pre>
+</details>
+
+<details>
+<summary>Conditionals
+</summary>
+<pre>
 
 - Get user input using input(“Enter your age:”). If the user is 18 or older, give feedback: You are old enough to drive but if not 18 give feedback to wait for the years he supposed to wait for.
   
-```py
-    Enter your age: 30
-    You are old enough to drive.
-    Enter your age:15
-    You are left with 3 years to drive.
-```
-
+  ```sh
+  Enter your age: 30
+  You are old enough to drive.
+  Enter your age:15
+  You are left with 3 years to drive.
+  ```
 - Compare the values of myAge and yourAge using if … else. Based on the comparison log to console who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
     Enter your age: 30
@@ -121,36 +170,46 @@ Your weight is 98.1 N.
     December, January or February, the season is Winter.
     March, April or May, the season is Spring
     June, July or August, the season is Summer
+<pre>
+</details>
 
-## Lists
+<details>
+<summary>Lists</summary>
+<pre>
+1. Declare an empty list
+2. Declare a list with more than 5 number of items
+3. Find the length of your list
+4. Get the first item, the middle item and the last item of the list
+5. Declare a list called mixed_data_types, put different data types in your array and the array size should be greater than 5
+6. Declare a list variable name it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+7. Print the list using print()
+8. Print the number of companies in the list
+9. Print the first, middle and last company
+10. Print out each company
+11. Print out the starting letter of each company name
+12. Change companies names to uppercase and print them out
+13. Print the list like a sentence: Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon are big IT companies.
+14. Check if a certain company exists in the it_companies list. If it exist return the company else return a company is _not found.
+15. Filter out companies which have more than one 'o' without the filter method
+16. Sort the array using sort() method
+17. Sort the array using sorted builtin function
+18. Reverse the array using the reverse method
+19. Reverse the array without reverse method
+20. Reverse the array using method
+21. Slice out the first 3 companies from the list
+22. Slice out the last 3 companies from the list
+23. Slice out the middle IT company or companies from the list
+24. Add CISCO to the companies list
+25. Add SalesForce and DEL to the companies list at once
+26. Insert Intel next IBM in the companies list
+27. Remove the first IT company from the array
+28. Remove the middle IT company or companies from the list
+29. Remove the last IT company from the list
+30. Remove all IT companies
 
-- Declare an empty list;
-- Declare a list with more than 5 number of items
-- Find the length of your list
-- Get the first item, the middle item and the last item of the list
-- Declare a list called mixed_data_types, put different data types in your array and the array size should be greater than 5
-- Declare a list variable name it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
-- Print the list using print()
-- Print the number of companies in the list
-- Print the first, middle and last company
-- Print out each company
-- Print out the starting letter of each company name
-- Change companies names to uppercase and print them out
-- Print the list like a sentence: Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon are big IT companies.
-- Check if a certain company exists in the it_companies list. If it exist return the company else return a company is _not found.
-- Filter out companies which have more than one 'o' without the filter method
-- Sort the array using sort() method
-- Sort the array using sorted builtin function
-- Reverse the array using the reverse method
-- Reverse the array without reverse method
-- Reverse the array using method
-- Slice out the first 3 companies from the list
-- Slice out the last 3 companies from the list
-- Slice out the middle IT company or companies from the list
-- Add CISCO to the companies list
-- Add SalesForce and DEL to the companies list at once
-- Insert Intel next IBM in the companies list
-- Remove the first IT company from the array
-- Remove the middle IT company or companies from the list
-- Remove the last IT company from the list
-- Remove all IT companies
+<pre>
+</details>
+
+
+
+
