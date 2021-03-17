@@ -3,24 +3,28 @@
 ## What is programming
 
 - Write a short description what a programming is
+  - A program is a set of instruction that can executed by a computer
 - List down some of the importance of python programming language
-- What version of python are you currently using? 
-- What code editor are you using?
+  - To develop a desktop application, server-side programming, data analysis, ML, etc
+- What version of python are you currently using? 3.9.2
+- What code editor are you using? VScode
 - What is the python interactive shell?
 - How do you open the python interactive shell and how do you close it?
-- What is the extension of the python script file?
+- What is the extension of the python script file? 
 
 ## Functions
 
-  - What is a function?
+  - What is a function? A block of code that allows you to perform a certain task
   - Functions can be divided into two: builtin functions and custom functions
   - Write at least 10 builtin functions and perform some task using the function
 
 ## Comments
   
 - What is the use of a comment in programming
-- Write a single line python comment
+  - To make the code readable, maintainable, reusable, to leave remark
+- Write a single line python comment # 
 - Write a multiline python comment
+
 
 ## Data types
 
@@ -33,10 +37,10 @@
   
 ## Operations
 
-What is an assignment operator?
+What is an assignment operator? 
 What are the Python Arithmetic operators?
-What are the Python comparison operators
-What are the Python logical operators
+What are the Python comparison operators > < >= <= == !==,
+What are the Python logical operators ? and, or, not
 
 ### Getting user input
 
@@ -48,7 +52,7 @@ Enter the current year: 2020
 You are 70 years old.
 ```
 
-Write a small script that can calculate the weight of an object on earth. The program asks user to enter mass and calculate the weight.
+Write a small script that can calculate the weight of an object on Earth. The program asks user to enter mass and calculate the weight.
 
 ```sh
 Enter your weight: 100
@@ -117,3 +121,36 @@ Your weight is 98.1 N.
     December, January or February, the season is Winter.
     March, April or May, the season is Spring
     June, July or August, the season is Summer
+
+## Lists
+
+- Declare an empty list;
+- Declare a list with more than 5 number of items
+- Find the length of your list
+- Get the first item, the middle item and the last item of the list
+- Declare a list called mixed_data_types, put different data types in your array and the array size should be greater than 5
+- Declare a list variable name it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+- Print the list using print()
+- Print the number of companies in the list
+- Print the first, middle and last company
+- Print out each company
+- Print out the starting letter of each company name
+- Change companies names to uppercase and print them out
+- Print the list like a sentence: Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon are big IT companies.
+- Check if a certain company exists in the it_companies list. If it exist return the company else return a company is _not found.
+- Filter out companies which have more than one 'o' without the filter method
+- Sort the array using sort() method
+- Sort the array using sorted builtin function
+- Reverse the array using the reverse method
+- Reverse the array without reverse method
+- Reverse the array using method
+- Slice out the first 3 companies from the list
+- Slice out the last 3 companies from the list
+- Slice out the middle IT company or companies from the list
+- Add CISCO to the companies list
+- Add SalesForce and DEL to the companies list at once
+- Insert Intel next IBM in the companies list
+- Remove the first IT company from the array
+- Remove the middle IT company or companies from the list
+- Remove the last IT company from the list
+- Remove all IT companies

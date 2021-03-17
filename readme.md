@@ -22,7 +22,11 @@
 ## Week 3
 
 - Conditionals Revision
-- Lists
+  
+- Lists: it is a collection of data types in an order manner. banana, manago, onion, tomato, potato, milk, meat, honey, sugar, coffee, tea
+
+
+## Week 4
 - Loops
 - Functions
 - Tuples
