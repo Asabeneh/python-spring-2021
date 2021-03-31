@@ -1,0 +1,9 @@
+{
+
+    "firstName":"Asabeneh",
+    "lastName":"Yetayeh",
+    "country":"Finland",
+    "city":"Helsink",
+    "age":250,
+    "skills":["HTML","CSS","JS","React"]
+}

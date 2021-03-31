@@ -27,8 +27,24 @@
 
 
 ## Week 4
+
 - Loops
 - Functions
 - Tuples
 - Set
-- Dictionary
+- Dictionary  
+
+# Week 5
+
+-  Dictionary
+-  List comprehension
+-  Modules
+-  Higher Order Functions
+
+# Week 6
+
+Type errors
+date time
+Exception handling
+Regular expression
+File handling
