@@ -1,4 +1,4 @@
-# Pyhton
+# Python Spring 2021 Batch
 
 ## Week 1
 
@@ -7,8 +7,7 @@
 - Writing Script on the Interactive Python Shell
 - Writing Python Script
 - Operators
-    - Arithmetic operators
-  
+  - Arithmetic operators
 - Data types(Number(Int, Float, Complex), Booleans, String, List, Tuple, Set Dictionary)
 
 ## Week 2
@@ -22,9 +21,7 @@
 ## Week 3
 
 - Conditionals Revision
-  
-- Lists: it is a collection of data types in an order manner. banana, manago, onion, tomato, potato, milk, meat, honey, sugar, coffee, tea
-
+- Lists
 
 ## Week 4
 
@@ -34,17 +31,17 @@
 - Set
 - Dictionary  
 
-# Week 5
+## Week 5
 
--  Dictionary
--  List comprehension
--  Modules
--  Higher Order Functions
+- Dictionary
+- List comprehension
+- Modules
+- Higher Order Functions
 
-# Week 6
+## Week 6
 
-Type errors
-date time
-Exception handling
-Regular expression
-File handling
+- Type errors
+- date time
+- Exception handling
+- Regular expression
+- File handling
