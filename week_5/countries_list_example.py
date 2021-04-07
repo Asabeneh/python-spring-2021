@@ -34,7 +34,7 @@ def find_most_common_words(txt, n = 10):
         word_dct.items(), key=lambda x: x[1], reverse=True)[0:n]
     return sorted_list
     # return { k:v for k,v in sorted_list }
-print(find_most_common_words(txt, 30))
+print(find_most_common_words(txt, 10))
 
 
 

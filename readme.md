@@ -43,5 +43,10 @@
 - Type errors
 - date time
 - Exception handling
+
+## Week 7
+
 - Regular expression
-- File handling
+- File handling 
+- Classes and Objects
+- Python Packages
