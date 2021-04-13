@@ -47,6 +47,6 @@
 ## Week 7
 
 - Regular expression
-- File handling 
+- File handling
 - Classes and Objects
 - Python Packages
