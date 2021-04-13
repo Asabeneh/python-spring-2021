@@ -50,3 +50,10 @@
 - File handling
 - Classes and Objects
 - Python Packages
+
+# Week 8
+
+- Regular Expression
+- Class and Object
+- Numpy
+- Pandas
